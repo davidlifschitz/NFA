@@ -46,68 +46,82 @@ This project aims to develop a Personal Finance Advisor powered by a Large Langu
 3. **Backend Setup:**
    ```bash
    cd backend
-  python -m venv venv
-  source venv/bin/activate
-  pip install -r requirements.txt
-  python app.py
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   python app.py
 
 **Database Setup:**
 
   Set up PostgreSQL/MySQL database.
   Update database configuration in backend/config.py.
+
 **Deploy on Cloud:**
 
   Follow the cloud provider's documentation to deploy the application.
   Ensure to set up environment variables for database connections and API keys.
 
 ## Usage
-**User Registration and Authentication:**
+**1. User Registration and Authentication:**
 
   Users can register and authenticate using secure OAuth.
-**Data Integration:**
+  
+**2. Data Integration:**
 
   Users can integrate their financial data from various institutions.
-**Financial Tools:**
+  
+**3. Financial Tools:**
 
   Use budget management tools, investment strategy recommendations, and retirement planning features.
-**Personalized Insights:**
+  
+**4. Personalized Insights:**
 
   Receive tailored financial advice and actionable recommendations based on your financial data and goals.
+  
 ## Development
 ### Model Selection and Training
-**Select an LLM:**
+**1. Select an LLM:**
   Choose a suitable pre-trained LLM (e.g., GPT-4, GPT-3).
-**Fine-Tuning:**
+  
+**2. Fine-Tuning:**
 
   Fine-tune the LLM on financial datasets to enhance understanding of financial terminology and concepts.
-**Integration:**
+  
+**3. Integration:**
 
   Integrate the fine-tuned LLM with the backend to process user queries and generate personalized recommendations.
+  
 ### Key Functionalities
-**Budget Management:**
+**1. Budget Management:**
 
   Track income and expenses.
   Set financial goals and create budget templates.
-**Investment Strategies:**
+  
+**2. Investment Strategies:**
 
   Provide personalized investment recommendations.
   Integrate with brokerage APIs for real-time portfolio management.
-**Retirement Planning:**
+  
+**3. Retirement Planning:**
 
   Offer savings calculators and projections.
   Provide advice on retirement accounts and investment options.
-**Tailored Financial Advice:**
+  
+**4. Tailored Financial Advice:**
 
   Generate personalized financial advice based on user data and goals.
+  
 ### Testing
 **1. User Testing:**
 
   Conduct user testing to gather feedback and identify areas for improvement.
   Perform A/B testing to optimize user experience and functionality.
+  
 **2. Model Validation:**
 
   Validate the LLM's performance in generating accurate and relevant financial advice.
   Ensure recommendations align with best financial practices.
+  
 ### Deployment
   Deploy the application on a secure cloud platform.
   Ensure scalability to handle increasing user data and interactions.
@@ -116,12 +130,15 @@ This project aims to develop a Personal Finance Advisor powered by a Large Langu
 ### Contributing
 1. Fork the repository.
 2. Create a new branch:
-   ```git checkout -b feature-branch-name.
+   ```bash
+   git checkout -b feature-branch-name.
 4. Make your changes and commit them:
-   ```git commit -m 'Add some feature'.
-6. Push to the branch:
-   ```git push origin feature-branch-name.
-8. Submit a pull request.
+   ```bash
+   git commit -m 'Meaningful Message about your commit here'.
+5. Push to the branch:
+   ```bash
+   git push origin feature-branch-name.
+6. Submit a pull request.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
